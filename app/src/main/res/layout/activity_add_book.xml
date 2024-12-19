@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/titleInput"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/bookTitle"
+        android:hint="@string/bookTitle"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/authorInput"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/authorName"
+        android:hint="@string/authorName"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/coverUrlInput"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/coverImageUrl"
+        android:hint="@string/coverImageUrl"
+        android:layout_marginBottom="16dp"
+        android:inputType="textUri"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveBook"
+        android:backgroundTint="@color/buttonColor"/>
+
+</LinearLayout>

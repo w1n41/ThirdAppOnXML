@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ThirdAppOnXML</string>
+    <string name="add">Add</string>
+    <string name="saveBook">Save book</string>
+    <string name="bookTitle">Book title</string>
+    <string name="authorName">Author name</string>
+    <string name="coverImageUrl">Cover image URL</string>
+    <string name="imageOfBook">Image of book</string>
+</resources>
